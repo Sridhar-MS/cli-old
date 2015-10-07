@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     "DNXCore,Version=v5.0": {
-      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
         "type": "package"
       },
       "Microsoft.NETCore.Runtime/1.0.0": {
@@ -201,7 +201,7 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x86": {
-      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
         "type": "package"
       },
       "Microsoft.NETCore.Runtime/1.0.0": {
@@ -256,8 +256,8 @@
         "native": {
           "runtimes/win7-x86/native/API-MS-Win-Base-Util-L1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-com-l1-1-0.dll": {},
-          "runtimes/win7-x86/native/api-ms-win-core-com-private-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-comm-l1-1-0.dll": {},
+          "runtimes/win7-x86/native/api-ms-win-core-com-private-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-console-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-console-l2-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-datetime-l1-1-0.dll": {},
@@ -320,13 +320,13 @@
           "runtimes/win7-x86/native/api-ms-win-core-shlwapi-obsolete-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-shutdown-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-shutdown-l1-1-1.dll": {},
+          "runtimes/win7-x86/native/API-MS-Win-Core-StringAnsi-L1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-string-l1-1-0.dll": {},
           "runtimes/win7-x86/native/API-MS-Win-Core-String-L2-1-0.dll": {},
-          "runtimes/win7-x86/native/api-ms-win-core-string-obsolete-l1-1-0.dll": {},
-          "runtimes/win7-x86/native/api-ms-win-core-string-obsolete-l1-1-1.dll": {},
-          "runtimes/win7-x86/native/API-MS-Win-Core-StringAnsi-L1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-stringloader-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-stringloader-l1-1-1.dll": {},
+          "runtimes/win7-x86/native/api-ms-win-core-string-obsolete-l1-1-0.dll": {},
+          "runtimes/win7-x86/native/api-ms-win-core-string-obsolete-l1-1-1.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-synch-l1-1-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-synch-l1-2-0.dll": {},
           "runtimes/win7-x86/native/api-ms-win-core-sysinfo-l1-1-0.dll": {},
@@ -378,7 +378,7 @@
           "runtimes/win7-x86/native/ext-ms-win-advapi32-encryptedfile-l1-1-0.dll": {}
         }
       },
-      "runtime.win7-x86.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+      "runtime.win7-x86.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
         "type": "package",
         "native": {
           "runtimes/win7-x86/native/CoreConsole.exe": {}
@@ -721,7 +721,7 @@
       }
     },
     "DNXCore,Version=v5.0/win7-x64": {
-      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+      "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
         "type": "package"
       },
       "Microsoft.NETCore.Runtime/1.0.0": {
@@ -776,8 +776,8 @@
         "native": {
           "runtimes/win7-x64/native/API-MS-Win-Base-Util-L1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-com-l1-1-0.dll": {},
-          "runtimes/win7-x64/native/api-ms-win-core-com-private-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-comm-l1-1-0.dll": {},
+          "runtimes/win7-x64/native/api-ms-win-core-com-private-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-console-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-console-l2-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-datetime-l1-1-0.dll": {},
@@ -840,13 +840,13 @@
           "runtimes/win7-x64/native/api-ms-win-core-shlwapi-obsolete-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-shutdown-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-shutdown-l1-1-1.dll": {},
+          "runtimes/win7-x64/native/API-MS-Win-Core-StringAnsi-L1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-string-l1-1-0.dll": {},
           "runtimes/win7-x64/native/API-MS-Win-Core-String-L2-1-0.dll": {},
-          "runtimes/win7-x64/native/api-ms-win-core-string-obsolete-l1-1-0.dll": {},
-          "runtimes/win7-x64/native/api-ms-win-core-string-obsolete-l1-1-1.dll": {},
-          "runtimes/win7-x64/native/API-MS-Win-Core-StringAnsi-L1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-stringloader-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-stringloader-l1-1-1.dll": {},
+          "runtimes/win7-x64/native/api-ms-win-core-string-obsolete-l1-1-0.dll": {},
+          "runtimes/win7-x64/native/api-ms-win-core-string-obsolete-l1-1-1.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-synch-l1-1-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-synch-l1-2-0.dll": {},
           "runtimes/win7-x64/native/api-ms-win-core-sysinfo-l1-1-0.dll": {},
@@ -898,7 +898,7 @@
           "runtimes/win7-x64/native/ext-ms-win-advapi32-encryptedfile-l1-1-0.dll": {}
         }
       },
-      "runtime.win7-x64.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+      "runtime.win7-x64.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
         "type": "package",
         "native": {
           "runtimes/win7-x64/native/CoreConsole.exe": {}
@@ -1242,12 +1242,12 @@
     }
   },
   "libraries": {
-    "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+    "Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
       "type": "package",
-      "sha512": "ojGXyhWUWBzPjvY4d5B9RTtDbvMr83r15KYS65/AQWi7DDqsHmzdI1yt9hNkAGwoWhoNmbcoHJOLazSP0NAoFA==",
+      "sha512": "DN0/gjHuDET4FxepT2g2Vn6lJWDTeEFpHrEhaxrzbuiRErCbNhBgme2f2bgsdNFdbl63bqImVZVYqz0TjBGArA==",
       "files": [
-        "Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg",
-        "Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg.sha512",
+        "Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg",
+        "Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg.sha512",
         "Microsoft.NETCore.ConsoleHost.nuspec",
         "runtime.json"
       ]
@@ -1630,22 +1630,22 @@
         "runtimes/win8-x86/native/api-ms-win-service-private-l1-1-1.dll"
       ]
     },
-    "runtime.win7-x64.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+    "runtime.win7-x64.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
       "type": "package",
-      "sha512": "IacuAbMXbKmkBmeIFOaU+c6ArXJsNMiB+kkKW230SDWtx2Vu1vKxCpiX4jSh1X+g7Yf6IMvFAYZOTUdg6eoglQ==",
+      "sha512": "OpZ5voIf/KK9zOw2j7zn8qIefXOl80nJQeyU8Jl4kV13PNLax3I/dtZFfb1/JVTUZ28eKAQqdpvl2UXFV4d7Ng==",
       "files": [
-        "runtime.win7-x64.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg",
-        "runtime.win7-x64.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg.sha512",
+        "runtime.win7-x64.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg",
+        "runtime.win7-x64.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg.sha512",
         "runtime.win7-x64.Microsoft.NETCore.ConsoleHost.nuspec",
         "runtimes/win7-x64/native/CoreConsole.exe"
       ]
     },
-    "runtime.win7-x86.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23405": {
+    "runtime.win7-x86.Microsoft.NETCore.ConsoleHost/1.0.0-beta-23406": {
       "type": "package",
-      "sha512": "1Stn1z3s1Toc+mD2GchAJVt5tTbSuaExPUIub1Lsdx/VonglMP5RXEbM5f68U45dF9zNo7wDKG+OIzCG95fA+A==",
+      "sha512": "rqeVOJEkheSoQVC54UR1+jDi4rluo3hvbgamoM7b+HMv9zXjf7KoAjn+Gk/oVCDXIgHt1MEuYeF5uyXmThqMfQ==",
       "files": [
-        "runtime.win7-x86.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg",
-        "runtime.win7-x86.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23405.nupkg.sha512",
+        "runtime.win7-x86.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg",
+        "runtime.win7-x86.Microsoft.NETCore.ConsoleHost.1.0.0-beta-23406.nupkg.sha512",
         "runtime.win7-x86.Microsoft.NETCore.ConsoleHost.nuspec",
         "runtimes/win7-x86/native/CoreConsole.exe"
       ]
@@ -1687,7 +1687,7 @@
     "System.Console/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "B+mCAx7sLNszp/EGnCCjwUibqxLBYx4JVrW4Z5V1mGuFtZfM0Bda3I6JUqjl4iipwuQ06qIXC/OEHZmDJRZMzA==",
+      "sha512": "ytlRZBI9ZoHiGwmyOg9bGlxvuGQ72YjKsjMWVfMOS57pupJySse2FHIAFMM3RShpY1y36/IUYVDjoPsFKuRn0Q==",
       "files": [
         "lib/DNXCore50/System.Console.dll",
         "lib/net46/System.Console.dll",
@@ -1879,7 +1879,7 @@
     },
     "System.Globalization/4.0.0-beta-23109": {
       "type": "package",
-      "sha512": "8zLrnA1TczXIqW+hszU2gbhoelI1+gKVlsJ7N1Z1WOQLsPl3XQTpXkKKJ4BWSm8R/gqNjX9SAbGJSyVsBTmtvg==",
+      "sha512": "ZNSeAYkY8ldNPmxSyv2aP7nSjbQHZtfboNXWE8zrQSvIKCs61kU6Ittae7OPxnsge2c9wGB6MJZPqldayTMVcg==",
       "files": [
         "lib/net45/_._",
         "lib/win8/_._",
@@ -1986,7 +1986,7 @@
     "System.IO/4.0.10-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "IhZVYhhHOzHUGV743cEMaSyvEI/9QMnn7f5PjPiZc0MBgl9KAxv2eVA/1kU2UkcVoC8K1JfA0M1JMiWsfjKjXg==",
+      "sha512": "DVHSyfJO8mC9CpZFjjuaOWazALkWFnI6b/fqTQCjNe1dp2XasuvTRiV/qIOJB+uyDVex8sH8QMRUDS6ukimyLA==",
       "files": [
         "lib/DNXCore50/System.IO.dll",
         "lib/net46/_._",
@@ -2046,7 +2046,7 @@
     "System.IO.FileSystem.Primitives/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "7cimw+tmq4M6z0/ovG+/lPwhoX5oYxuM9dvRcS6Rz5IlZ8RmgidxTKiQ/3wz1UBFgGD8wREodVss2G8Qk4DnKQ==",
+      "sha512": "1JFc6+hsLnlYgACgluhMi19zFkNruPgWoLDq30z7qMKgs3FZqShvXDZLTQ1Hk+cnenUoUU/8P8yRdmbdQaf4yg==",
       "files": [
         "lib/dotnet/System.IO.FileSystem.Primitives.dll",
         "lib/net46/System.IO.FileSystem.Primitives.dll",
@@ -2102,7 +2102,7 @@
     "System.Private.Uri/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "+VcCWTtsjIV+C7sGhlu+scxT9j+ynm3rpAbdld5XhjJOvlk6WZmcZwxnhMpLTM8Gd/1iHXdTP6Ns2cq3NDdMiw==",
+      "sha512": "y6M7TxwDXBD2in5cCf+KzucZyx7YE7SJMcU24atzYnpwP2xFASUYCeI6NRg5bYcw2Do5HKBz+XdE9WiZrwpnFg==",
       "files": [
         "lib/DNXCore50/System.Private.Uri.dll",
         "lib/netcore50/System.Private.Uri.dll",
@@ -2239,7 +2239,7 @@
     "System.Reflection.Primitives/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "/MQUdZZiDa3Pp/cMpLHqMKvuXU4fPXjVTLqTf2x4y6Fgaawam+8rSnRQj0NlU0KdVoLFHGeSM1IzSaeWY6RhVw==",
+      "sha512": "R5oBDNgUtSV9KTPCxwHWiTyryX/9mngnPbLWwFOEF5xcNd3Qlu6/3LiauGsIzGtXV8vOpRl9tfyIFy8t4ix4Gw==",
       "files": [
         "lib/DNXCore50/System.Reflection.Primitives.dll",
         "lib/net45/_._",
@@ -2307,7 +2307,7 @@
     "System.Resources.ResourceManager/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "V5Uogl/dtAY5WdHm8GBbfFfJIJDeFYIcAMFoR5G9RT4IDjzao/EFUINCU0jnAM+km9WmfHFt8OIKZy0bpdzt+w==",
+      "sha512": "S7Hx7w3xzlwxzyIIvcpiFDM/gIu317Nkn4PC0IzQFMBP1pC/RH7OI8AVkpuqeXMqqWoo3pz/Kvcsd2GSzDmQew==",
       "files": [
         "lib/DNXCore50/System.Resources.ResourceManager.dll",
         "lib/net45/_._",
@@ -2375,7 +2375,7 @@
     "System.Runtime/4.0.20-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "gUjnfxBE6cjlMzDnt0dhD4FBZSAGTuCSCAeZ94Pr1qmj5pnE+g2vspGHwSS79MFe/GiznR2gkN5yBq9Q/RwX7Q==",
+      "sha512": "6usAb6nZEPKugl3z5JR/RZrouH5/340n3tM0lhRfxVE/k3B3Sfh/sHSPiAOorrZgGm4cIDDhXTCGJQSWYphu3g==",
       "files": [
         "lib/DNXCore50/System.Runtime.dll",
         "lib/net46/_._",
@@ -2469,7 +2469,7 @@
     "System.Runtime.Handles/4.0.0-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "X34w6W2Kd3GnXIwbcaaaJlRuGOMrJ1rkGHp3ndt0uBnz4Nx74qQXJCt/1JxebRXrvjICgnolVQ3TftclHP69pA==",
+      "sha512": "XfjBv5hxBDVXvgPzBXiMpHprnmd5trdBAG4o7DEi/3GPXIlety4G0sfmlxeiTr7njKr0wF4ERdLIfzPesS5PAw==",
       "files": [
         "lib/DNXCore50/System.Runtime.Handles.dll",
         "lib/net46/_._",
@@ -2529,7 +2529,7 @@
     "System.Runtime.InteropServices/4.0.20-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "7GAvp+GOYhfTnk41tgvgLHsUgk912QHYMyRrGlJ8BfA677st/28yBcJUmQsNEh8nMw8QelUc1MPHtr1Rnhriuw==",
+      "sha512": "fxRLTR5kbqOZuSeT5ggVBYc6HIEGmEwh+Uw1ijp2qD3yMiMPmxvtI5aP5t0yZHEmwUrB37lGB+oaPpcXLH5Feg==",
       "files": [
         "lib/DNXCore50/System.Runtime.InteropServices.dll",
         "lib/net46/_._",
@@ -2588,7 +2588,7 @@
     },
     "System.Text.Encoding/4.0.10-beta-23109": {
       "type": "package",
-      "sha512": "RFHVd2SSqjpNbfIFK8cDzpZpQaTMjT+av8bzD8FL4Jd2UiSKThSL/9bXBGcvtOH3yrruvjQ4BNFSNeJOVVUr9A==",
+      "sha512": "oymPt96KPPXO/Scxow+x8cKczVw0KXfExKTXQlwT+j3sS1j/JuV+rZq2sQ54fqOi2R4d9aFPESsoN830sA6VCw==",
       "files": [
         "lib/DNXCore50/System.Text.Encoding.dll",
         "lib/net46/_._",
@@ -2646,7 +2646,7 @@
     },
     "System.Text.Encoding.Extensions/4.0.10-beta-23109": {
       "type": "package",
-      "sha512": "Q0uEv0adXSEkBzpV701/kN1oJ3ZxxxQCHQ7Pk+N3m89gU6KciIIYbl38jPu4nGf9gX12ndEOKdau2OsHbFP4AA==",
+      "sha512": "F6GZqICZ654MsqVPCL8h+fvDZJmXnu1I1PYY9686yG+lbcZzs9aavqMUjv1Lu5wOdiTKnmn7LADZYzPD6y1p+w==",
       "files": [
         "lib/DNXCore50/System.Text.Encoding.Extensions.dll",
         "lib/net46/_._",
@@ -2705,7 +2705,7 @@
     "System.Threading/4.0.10-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "Cp8knjdpq8krjb9L3jAIZ/aEAyTxpFeUY2oSZ7KOwjUyrEu5wPG1GyPxBD1CGC4Qh2/k6QGU8PeRl2Tao1BhyQ==",
+      "sha512": "TSViw+K20yh9DmwzZpvuCUc2m2ju1eVAJ10pTw2gB/aP4kkrX2nGf4A9BkwkxupPXFA2OtO9LbbEqdp4YbBnjQ==",
       "files": [
         "lib/DNXCore50/System.Threading.dll",
         "lib/net46/_._",
@@ -2765,7 +2765,7 @@
     "System.Threading.Tasks/4.0.10-beta-23109": {
       "type": "package",
       "serviceable": true,
-      "sha512": "Z5xH3DJoLBu+A5mBoDJ2iFUjUds0XBqhFEAU1cU0YpIN389hkT6s0j4F1W6V807EDWK6KN8YcJwLMiVOt1NHIg==",
+      "sha512": "J7lBqLLy1A85KZUgFz0fS8u6BO+pnWun2OAkrNqcUQbgCiKDC9v92u9q6a6AB9znum+GCdzH3cyEftNtIVNd1Q==",
       "files": [
         "lib/DNXCore50/System.Threading.Tasks.dll",
         "lib/net46/_._",
