@@ -67,29 +67,30 @@ def static getBuildJobName(def configuration, def os) {
         Utilities.addStandardNonPRParameters(newCommitJob)
         Utilities.addGithubPushTrigger(newCommitJob)
 
-
-        def newPRJob = job(InternalUtilities.getFullJobName(project, jobName, true)) {
-            // Set the label.
-            label(machineLabelMap[os])
-            steps {
-                if (os == 'Windows_NT') {
-                    // Batch
-                    batchFile(buildCommand)
-                }
-                else {
-                    // Shell
-                    shell(buildCommand)
-
-                    // Post Build Cleanup
-                    publishers {
-                        postBuildScripts {
-                            steps {
-                                shell(postBuildCommand)
-                            }
-                            onlyIfBuildSucceeds(false)
-                        }
+        if(lowerConfiguration != 'release') {
+            def newPRJob = job(InternalUtilities.getFullJobName(project, jobName, true)) {
+                // Set the label.
+                label(machineLabelMap[os])
+                steps {
+                    if (os == 'Windows_NT') {
+                        // Batch
+                        batchFile(buildCommand)
                     }
+                    else {
+                        // Shell
+                        shell(buildCommand)
 
+                        // Post Build Cleanup
+                        publishers {
+                            postBuildScripts {
+                                steps {
+                                    shell(postBuildCommand)
+                                }
+                                onlyIfBuildSucceeds(false)
+                            }
+                        }
+
+                    }
                 }
             }
         }
