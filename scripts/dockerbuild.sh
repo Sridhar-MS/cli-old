@@ -21,6 +21,9 @@ cd $DIR/..
 banner "Building Docker Container"
 docker build -t $DOTNET_BUILD_CONTAINER_TAG scripts/docker/
 
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!dockerbuild.sh!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+printenv
+
 # Run the build in the container
 banner "Launching build in Docker Container"
 info "Using code from: $DOCKER_HOST_SHARE_DIR"
