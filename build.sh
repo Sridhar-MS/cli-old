@@ -22,5 +22,9 @@ fi
 
 echo Building dotnet tools verison - $DOTNET_BUILD_VERSION
 
+echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@build.sh@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+printenv
+
+
 $DIR/scripts/bootstrap.sh
 $DIR/scripts/package.sh $1

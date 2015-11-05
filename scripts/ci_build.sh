@@ -18,7 +18,7 @@ if [ -z "$HOME" ]; then
     [ ! -d "$HOME" ] || rm -Rf $HOME
     mkdir -p $HOME
 fi
-
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ci_build.sh>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 printenv
 
 # UTC Timestamp of the last commit is used as the build number. This is for easy synchronization of build number between Windows, OSX and Linux builds.
